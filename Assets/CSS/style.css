@@ -6,31 +6,15 @@
 }
 
 header {
-    position: fixed;
     width: 100%;
     height:10%;
     border-bottom: solid 2px black;
-    display:fixed;
-    z-index:1;
-
-    
-    
-    
+   
 }
 
-.hero {
-    width:100%;
-    opacity: 80%;
-    
-}
-
-body {
-    
-}
-
- li {
+li {
     list-style: none;
-    float: right;
+    display: inline-block;
     margin-left: 28px;
     margin-top: 7px;
     padding: 17px;
@@ -41,6 +25,10 @@ body {
 
 nav {
     
+    display:flex;
+    justify-content: flex-end;
+
+    
 }
 
 a {
@@ -48,14 +36,30 @@ a {
     color: black;  
 }
 
+.material-icons {
+    margin-top:1%;
+}
+
+
+.hero {
+    width:100%;
+    opacity: 80%;
+    
+}
+
+
+
+ 
+
 p {
     margin:2%;
 }
 
 h1 {
+   
     font-family: "sofia", sans-serif;
-    margin: 1%;
     float:left;
+    margin: 1%;
     color:black;
 }
 
@@ -88,17 +92,27 @@ h3 {
     
 }
 
+.flexbox-container {
+
+height:100%;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+
+   
+    
+
+}
+
 .box {
-    width:33%;
+
+    width:45%;
     height:40%;
     border: dashed 3px white ;
-    border-radius: 5%;
+    border-radius: 5%;  
     display: inline-block;
-    margin-top: 3%;
-    margin-right: 2%;
-    margin-left: 1.5%;
-        -moz-box-shadow: 10px 10px 50px grey;
-    -webkit-box-shadow: 10px 10px 50px grey;
+    margin: 3% 2% 1.5% 2%;
     box-shadow: 10px 10px 50px grey;
     
     
@@ -113,14 +127,13 @@ h3 {
 }
 
 aside {
-    
+        
         margin-right: 20px;
         margin-top:3%;
         padding: 20px;
         clear: both;
         float: right;
-        width: 20%;
-        height: 100%;
+        width: 25%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border: dashed 5px white;
         border-radius: 10px;
@@ -138,11 +151,25 @@ li:hover {
 
 section:hover, h3 {
     color: black;
-    box-shadow: 0 5px 15px rgba(58, 219, 240, 0.4);
+    box-shadow: 0 5px 15px  rgba(58, 219, 240, 0.4);
     cursor: pointer;
   }
 
 
+
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      background-color: aqua;
+    }
+
 }
 
-media and screen ()
+
+
+@media screen and (max-width: 600px) {
+    .flexbox-container {
+        flex-direction: column;
+    }
+     
+    }
