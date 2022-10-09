@@ -18,15 +18,14 @@ li {
     margin-left: 28px;
     margin-top: 7px;
     padding: 17px;
-    border-right: solid 2px black;
     
 
 }
 
 nav {
-    
     display:flex;
     justify-content: flex-end;
+    
 
     
 }
@@ -47,9 +46,6 @@ a {
     
 }
 
-
-
- 
 
 p {
     margin:2%;
@@ -134,9 +130,18 @@ aside {
         clear: both;
         float: right;
         width: 25%;
+        height: 83%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border: dashed 5px white;
         border-radius: 10px;
+
+}
+
+.contact-me {
+    border:solid 5px black;
+    height: 50vh;
+
+
 
 }
 
