@@ -12,6 +12,8 @@ header {
    
 }
 
+
+
 li {
     list-style: none;
     display: inline-block;
@@ -49,7 +51,6 @@ a {
     opacity: 80%;
     
 }
-
 
 p {
     margin:2%;
@@ -165,6 +166,8 @@ aside {
 
 }
 
+
+
 button {
     background-color: white;
     color: black;
@@ -172,15 +175,7 @@ button {
     
 }
 
-.mail-logo {
-    position: relative;
-    margin-top: 3.5%;
-    left: -5%;
-    width: 27%;
-    height: 70%;
-    
 
-}
 
 a:hover   {
     color:black;
@@ -193,6 +188,8 @@ a:hover   {
     box-shadow: 0 5px 15px  rgba(58, 219, 240, 0.4);
     cursor: pointer;
   }
+
+
 
 
 /*  @media screen and (max-width: 992px) {
