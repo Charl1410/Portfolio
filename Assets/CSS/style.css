@@ -71,11 +71,11 @@ h2 { font-family: "sofia", sans-serif;
 
 h3 {
     font-family: "sofia", sans-serif;
-    color:white;
+    font-size: 150%;
+    color: black;
     position:absolute;
     margin-top: 8%;
-    border: dashed 3px white;
-    opacity: 100%;
+    opacity: 80%;
 
 
 }
@@ -89,7 +89,7 @@ h3 {
     
 }
 
-.flexbox-container {
+#flexbox-container {
 
 height:100%;
 display:flex;
@@ -141,7 +141,7 @@ aside {
     border-radius: 10px;
 }
 
-.contact-me {
+#contact-me {
     width: 90%;
     height:90%;
     display:flex;
@@ -152,7 +152,7 @@ aside {
     
 }
 
-.contact-me p {
+#contact-me p {
     display:flex;
     justify-content: center;
     right:50%;
