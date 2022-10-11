@@ -1,8 +1,8 @@
-# week-2-portfolio
+# week 2 portfolio
 
 ## Description 
 
-The current project aim is to create a portfolio page for potential employees to acess future work. 
+The current project aim is to create a portfolio page for potential employees to acess my future work. 
 
 ## Acceptance Criteria 
 
@@ -27,4 +27,5 @@ The current project aim is to create a portfolio page for potential employees to
 
 ## Links 
 
+https://charl1410.github.io/week-2-portfolio/
 
