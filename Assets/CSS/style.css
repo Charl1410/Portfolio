@@ -155,7 +155,7 @@ aside {
 
 #contact-me p {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     right:50%;
     bottom:10%;
 }

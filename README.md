@@ -1,10 +1,10 @@
-## week-2-portfolio
+# week-2-portfolio
 
-# Description 
+## Description 
 
-The current project aim is to create a portfolio page for potential employees to acess future work.
+The current project aim is to create a portfolio page for potential employees to acess future work. 
 
-# Acceptance Criteria 
+## Acceptance Criteria 
 
  * GIVEN I need to sample a potential employee's previous work
  * WHEN I load their portfolio
@@ -20,8 +20,13 @@ The current project aim is to create a portfolio page for potential employees to
  * WHEN I resize the page or view the site on various screens and devices
  * THEN I am presented with a responsive layout that adapts to my viewport
 
-# Images 
-![](Assets/images/Screenshot 2022-10-11 at 11.52.00.png)
+## Images 
 
-# Links 
+![Website screenshot](Assets/images/Screenshot 2022-10-11 at 11.52.00.png)
+
+## Extra information
+This site contains a link to my first weeks project. I struggled with flexbox especially with the contact me section. 
+
+
+## Links 
 
