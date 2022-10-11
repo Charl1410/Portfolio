@@ -22,7 +22,7 @@ The current project aim is to create a portfolio page for potential employees to
 
 ## Images 
 
-![Website screenshot](Assets/images/Screenshot 2022-10-11 at 11.52.00.png)
+![Website screenshot](https://github.com/Charl1410/week-2-portfolio/blob/1f21370f41930fd02ade32cd681c537e3fa14491/Assets/images/Screenshot%202022-10-11%20at%2011.52.00.png)
 
 ## Extra information
 This site contains a link to my first weeks project. I struggled with flexbox especially with the contact me section. 
